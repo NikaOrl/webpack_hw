@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "bundle.[contenthash:4].js?"
+        filename: "bundle.[contenthash:4].js"
     },
     module: {
         rules: [
